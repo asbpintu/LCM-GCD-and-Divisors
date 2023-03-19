@@ -5,7 +5,7 @@ Hi I am Ardhendu Shekhare , This is a small programme to find out the LCM and GC
 Code:-
 
 ##################################
-# FOR ENTER THE LIST OF NUMBERS. #
+###  FOR ENTER THE LIST OF NUMBERS. 
 ##################################
 ​
 print("\n")
@@ -15,10 +15,10 @@ data=[]
 while len(data) < nos :
     numbers=int(input("Enter the number : "))
     data.append(numbers)
-# print(data)
+
 ​
 #######################################################
-# FINDING THE DIVISORS OF EACH NUMBERS FROM THE LIST. #
+ FINDING THE DIVISORS OF EACH NUMBERS FROM THE LIST. 
 #######################################################
 ​
 for k in range(len(data)) :
@@ -32,7 +32,7 @@ for k in range(len(data)) :
     print(f"\n\nDivisors of {num} are : {div}")
 ​
 ###########################################
-# FINDING THE GCD OF THE LIST OF NUMBERS. #
+  FINDING THE GCD OF THE LIST OF NUMBERS. 
 ###########################################
 ​
 for gcd in range(min(data),0,-1) :
@@ -44,7 +44,7 @@ for gcd in range(min(data),0,-1) :
         break
 ​
 ###########################################
-# FINDING THE LCM OF THE LIST OF NUMBERS. #
+  FINDING THE LCM OF THE LIST OF NUMBERS. 
 ###########################################
 ​
 lcm=max(data)
@@ -58,7 +58,7 @@ while True :
         break
 ​
 #############################################
-# THANKS FROM ARDHENDU SHEKHAR (@asbpintu). #
+ THANKS FROM ARDHENDU SHEKHAR (@asbpintu). 
 #############################################
 
 Result:-
