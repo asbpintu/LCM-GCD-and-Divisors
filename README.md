@@ -1,11 +1,12 @@
-# LCM-GCD-and-Divisors
-Hi I am Ardhendu Shekhare , This is a small programme to find out the LCM and GCD of 2 or more than two numbers, also we can get all the divisors of every numbers.
+## LCM-GCD-and-Divisors
 
+#### Hi I am Ardhendu Shekhare , This is a small programme to find out the LCM and GCD of 2 or more than two numbers, also we can get all the divisors of every numbers.
 
-Code:-
-
+---
+**Code:-**
+```JS
 ##################################
-###  FOR ENTER THE LIST OF NUMBERS. 
+# FOR ENTER THE LIST OF NUMBERS. #
 ##################################
 ​
 print("\n")
@@ -18,7 +19,7 @@ while len(data) < nos :
 
 ​
 #######################################################
- FINDING THE DIVISORS OF EACH NUMBERS FROM THE LIST. 
+# FINDING THE DIVISORS OF EACH NUMBERS FROM THE LIST. #
 #######################################################
 ​
 for k in range(len(data)) :
@@ -32,7 +33,7 @@ for k in range(len(data)) :
     print(f"\n\nDivisors of {num} are : {div}")
 ​
 ###########################################
-  FINDING THE GCD OF THE LIST OF NUMBERS. 
+# FINDING THE GCD OF THE LIST OF NUMBERS. # 
 ###########################################
 ​
 for gcd in range(min(data),0,-1) :
@@ -44,7 +45,7 @@ for gcd in range(min(data),0,-1) :
         break
 ​
 ###########################################
-  FINDING THE LCM OF THE LIST OF NUMBERS. 
+# FINDING THE LCM OF THE LIST OF NUMBERS. #
 ###########################################
 ​
 lcm=max(data)
@@ -58,11 +59,11 @@ while True :
         break
 ​
 #############################################
- THANKS FROM ARDHENDU SHEKHAR (@asbpintu). 
+# THANKS FROM ARDHENDU SHEKHAR (@asbpintu). # 
 #############################################
-
-Result:-
-
+```
+### *Result:-*
+```
 Enter no of values : 3
 
 
@@ -84,6 +85,6 @@ The G.C.D. of [12, 24, 36] is 12.
 
 
 The L.C.M. of [12, 24, 36] is 72.
+```
 
-
-Thank you !!!
+_**Thank you !!!**_
