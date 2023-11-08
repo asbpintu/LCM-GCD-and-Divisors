@@ -50,6 +50,7 @@ for gcd in range(min(data),0,-1) :
 ​
 lcm=max(data)
 while True :
+    B
     for a in range(1,len(data)+1) :
         if lcm % data[a-1] != 0 :
             lcm+=1
@@ -88,3 +89,4 @@ The L.C.M. of [12, 24, 36] is 72.
 ```
 
 _**Thank you !!!**_
+**VISIT AGAIN**
